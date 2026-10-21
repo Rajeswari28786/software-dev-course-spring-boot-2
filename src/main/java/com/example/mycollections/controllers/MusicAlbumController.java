@@ -16,6 +16,7 @@ public class MusicAlbumController {
         add(new MusicAlbum("Divide", "Ed Sheeran", 1949, 328));
     }};
 
+
     @GetMapping("/json")
     public List<MusicAlbum> getMusicAlbumsJson() {
         return MusicAlbums;
